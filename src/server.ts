@@ -1,3 +1,5 @@
+import 'dotenv/config'
+
 import express from 'express'
 import { PrismaClient } from '@prisma/client'
 import { convertHourStringToMinutes } from './utils/convert-hour-string-to-minutes'
@@ -95,4 +97,7 @@ app.get('/ads/:id/discord', async (request, response) => {
     })
 })
 
-app.listen(3333)
+
+console.log(process.env.PORT)
+
+app.listen(process.env.PORT)
