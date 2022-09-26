@@ -97,7 +97,4 @@ app.get('/ads/:id/discord', async (request, response) => {
     })
 })
 
-
-console.log(process.env.PORT)
-
 app.listen(process.env.PORT)
