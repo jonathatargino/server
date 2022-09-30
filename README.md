@@ -1,4 +1,4 @@
-# NLW Duos
+# NLW Duos - backend
 
 Este repositório faz parte do projeto <a href="https://github.com/jonathatargino/web">NLW Duos<a> e atua como backend da aplicação, sendo necessário para o funcionamento do projeto.
 
